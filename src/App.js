@@ -1,47 +1,22 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 
 import React, { Component } from 'react';
-import { Button, Modal, Card, Jumbotron } from 'react-bootstrap';
+import { Button, Card, Jumbotron } from 'react-bootstrap';
+import ProjectModal from './project';
 import './App.css';
-
-function ProjectModal (props) {
-  console.log("test")
-  return (
-    <Modal
-      {...props}
-      size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-    >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Modal heading
-        </Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
-        <h4>Centered Modal</h4>
-        <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
-        </p>
-      </Modal.Body>
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
-    </Modal>
-  );
-}
 
 export default class App extends Component {
 
   constructor(props) {
     super(props);
+    this.wrapper = React.createRef();
     this.state = {
       showEye: false,
       showOghma: false,
       showClimate: false,
-      showAced: false
+      showAced: false,
+      showUni: false,
+      showQuote: false
     };
   }
 
@@ -57,51 +32,109 @@ export default class App extends Component {
           </h2>
         </Jumbotron>
         <Card className="text-center">
-          <Card.Header as="h1">My Recent Work</Card.Header>
+          <Card.Header as="h1">Previous Work</Card.Header>
           <Card.Body>
             <div className="card-group">
               <Card className="text-center">
                 <Button
-                  onClick={() => this.setState({showEye: true}) && <ProjectModal modalId="eye" show={this.state.showEye} onHide={() => this.setState({showEye: false})} />}
+                  onClick={() => this.setState({showEye: true})}
                   className="project-button"
+                  id="eye_project_button"
                   size="lg"
                   block
                 >
-                  Eye Of Horus
+                  <img src="./eye.png" alt="eye-of-horus-logo" />
                 </Button>
               </Card>
+              <ProjectModal
+                modalname="eye"
+                show={this.state.showEye}
+                onHide={() => this.setState({showEye: false})}
+              />
               <Card className="text-center">
                 <Button
-                  onClick={() => this.setState({showOghma: true}) && <ProjectModal modalId="oghma" show={this.state.showOghma} onHide={() => this.setState({showOghma: false})} />}
+                  onClick={() => this.setState({showOghma: true})}
                   className="project-button"
+                  id="oghma_project_button"
                   size="lg"
                   block
                 >
-                  Oghma
+                  <img src="https://assets.dicebreaker.com/dungeons-and-dragons-volos-guide-to-monsters-artwork.jpg/BROK/resize/1200x1200%3E/format/jpg/quality/70/dungeons-and-dragons-volos-guide-to-monsters-artwork.jpg" alt="oghma-logo" id="oghma_project_button_img"/>
                 </Button>
               </Card>
+              <ProjectModal
+                modalname="oghma"
+                show={this.state.showOghma}
+                onHide={() => this.setState({showOghma: false})}
+              />
             </div>
             <div className="card-group">
               <Card className="text-center">
                 <Button
-                  onClick={() => this.setState({showClimate: true}) && <ProjectModal modalId="climate" show={this.state.showClimate} onHide={() => this.setState({showClimate: false})} />}
+                  onClick={() => this.setState({showClimate: true})}
                   className="project-button"
+                  id="climate_project_button"
                   size="lg"
                   block
                 >
-                  Climate Monitor
+                  <img src="./sheffsense.png" alt="climate-logo" id="climate_project_button_img"/>
                 </Button>
               </Card>
+              <ProjectModal
+                modalname="climate"
+                show={this.state.showClimate}
+                onHide={() => this.setState({showClimate: false})}
+              />
               <Card className="text-center">
                 <Button
-                  onClick={() => this.setState({showAced: true}) && <ProjectModal modalId="aced" show={this.state.showAced} onHide={() => this.setState({showAced: false})} />}
+                  onClick={() => this.setState({showAced: true})}
                   className="project-button"
+                  id="aced_project_button"
                   size="lg"
                   block
                 >
-                  Aced Arsenal
+                  <img src="./ace.png" alt="aced-logo" id="aced_project_button_img"/>
                 </Button>
               </Card>
+              <ProjectModal
+                modalname="aced"
+                show={this.state.showAced}
+                onHide={() => this.setState({showAced: false})}
+              />
+            </div>
+            <div className="card-group">
+              <Card className="text-center">
+                <Button
+                  onClick={() => this.setState({showUni: true})}
+                  className="project-button"
+                  id="uni_project_button"
+                  size="lg"
+                  block
+                >
+                  <img src="https://d39ner1f41xyl1.cloudfront.net/assets/uopqueenlogomono-156ce0828e4a0d49073bd3135ef7a3f2df130d1ac3612a29a5f0c8d5faf98557.svg" alt="uni-logo" id="uni_project_button_img"/>
+                </Button>
+              </Card>
+              <ProjectModal
+                modalname="uni"
+                show={this.state.showUni}
+                onHide={() => this.setState({showUni: false})}
+              />
+              <Card className="text-center">
+                <Button
+                  onClick={() => this.setState({showQuote: true})}
+                  className="project-button"
+                  id="quote_project_button"
+                  size="lg"
+                  block
+                >
+                  <img src="./quotebook.png" alt="quote-logo" id="quote_project_button_img"/>
+                </Button>
+              </Card>
+              <ProjectModal
+                modalname="quote"
+                show={this.state.showQuote}
+                onHide={() => this.setState({showQuote: false})}
+              />
             </div>
           </Card.Body>
         </Card>

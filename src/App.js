@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 
 import React, { Component } from 'react';
-import { Button, Card, Jumbotron } from 'react-bootstrap';
+import { OverlayTrigger, Button, Card, Jumbotron, Tooltip } from 'react-bootstrap';
 import ProjectModal from './project';
 import './App.css';
 
@@ -141,8 +141,177 @@ export default class App extends Component {
         <div className="card-group">
           <Card className="text-center" id="skills_card">
             <Card.Header as="h1">Skills</Card.Header>
-            <Card.Body>
-              Skills here
+            <Card.Body className="skill-wrapper">
+              <OverlayTrigger
+                key="top"
+                placement="top"
+                overlay={<Tooltip id="tooltip-top">Angular</Tooltip>}
+              >
+                <img className="skill-image" src="./angular.png" alt="angular" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="top"
+                placement="top"
+                overlay={<Tooltip id="tooltip-top">ReactJS</Tooltip>}
+              >
+                <img className="skill-image" src="./react.png" alt="react" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="top"
+                placement="top"
+                overlay={<Tooltip id="tooltip-top">Kotlin</Tooltip>}
+              >
+                <img className="skill-image" src="./kotlin.png" alt="kotlin" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="top"
+                placement="top"
+                overlay={<Tooltip id="tooltip-top">Java</Tooltip>}
+              >
+                <img className="skill-image" src="./java.png" alt="java" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="top"
+                placement="top"
+                overlay={<Tooltip id="tooltip-top">Metasploit</Tooltip>}
+              >
+                <img className="skill-image" src="./metasploit.png" alt="metasploit" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="top"
+                placement="top"
+                overlay={<Tooltip id="tooltip-top">Ghidra</Tooltip>}
+              >
+                <img className="skill-image" src="./ghidra.png" alt="ghidra" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="top"
+                placement="top"
+                overlay={<Tooltip id="tooltip-top">NodeJS</Tooltip>}
+              >
+                <img className="nodejs-skill-image" src="./nodejs.png" alt="nodejs" />
+              </OverlayTrigger>
+              <br/>
+              <OverlayTrigger
+                key="left"
+                placement="left"
+                overlay={<Tooltip id="tooltip-left">Jenkins</Tooltip>}
+              >
+                <img className="skill-image" src="./jenkins.png" alt="jenkins" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="left"
+                placement="left"
+                overlay={<Tooltip id="tooltip-left">Docker</Tooltip>}
+              >
+                <img className="skill-image" src="./docker.png" alt="docker" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="left"
+                placement="left"
+                overlay={<Tooltip id="tooltip-left">Wireshark</Tooltip>}
+              >
+                <img className="skill-image" src="./wireshark.png" alt="wireshark" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="left"
+                placement="left"
+                overlay={<Tooltip id="tooltip-left">Nmap</Tooltip>}
+              >
+                <img className="skill-image" src="./nmap.png" alt="nmap" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="right"
+                placement="right"
+                overlay={<Tooltip id="tooltip-right">Hashcat</Tooltip>}
+              >
+                <img className="skill-image" src="./hashcat.png" alt="hashcat" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="right"
+                placement="right"
+                overlay={<Tooltip id="tooltip-right">Forensic Tool Kit</Tooltip>}
+              >
+                <img className="skill-image" src="./ftk.png" alt="ftk" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="right"
+                placement="right"
+                overlay={<Tooltip id="tooltip-right">Scalpel</Tooltip>}
+              >
+                <img className="skill-image" src="./scalpel.png" alt="scalpel" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="right"
+                placement="right"
+                overlay={<Tooltip id="tooltip-right">OpenVAS</Tooltip>}
+              >
+                <img className="skill-image" src="./openvas.png" alt="openvas" />
+              </OverlayTrigger>
+              <br/>
+              <OverlayTrigger
+                key="bottom"
+                placement="bottom"
+                overlay={<Tooltip id="tooltip-bottom">AWS S3</Tooltip>}
+              >
+                <img className="skill-image" src="./s3.png" alt="s3" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="bottom"
+                placement="bottom"
+                overlay={<Tooltip id="tooltip-bottom">AWS Kinesis</Tooltip>}
+              >
+                <img className="skill-image" src="./kinesis.png" alt="kinesis" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="bottom"
+                placement="bottom"
+                overlay={<Tooltip id="tooltip-bottom">AWS Rekognition</Tooltip>}
+              >
+                <img className="skill-image" src="./rekognition.png" alt="rekognition" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="bottom"
+                placement="bottom"
+                overlay={<Tooltip id="tooltip-bottom">Microsoft Azure</Tooltip>}
+              >
+                <img className="skill-image" src="./azure.png" alt="azure" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="bottom"
+                placement="bottom"
+                overlay={<Tooltip id="tooltip-bottom">Google Firebase</Tooltip>}
+              >
+                <img className="skill-image" src="./firebase.png" alt="firebase" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="bottom"
+                placement="bottom"
+                overlay={<Tooltip id="tooltip-bottom">Kali Linux</Tooltip>}
+              >
+                <img className="skill-image" src="./kali.png" alt="kali" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="bottom"
+                placement="bottom"
+                overlay={<Tooltip id="tooltip-bottom">Parrot Linux</Tooltip>}
+              >
+                <img className="skill-image" src="./parrot.png" alt="parrot" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="bottom"
+                placement="bottom"
+                overlay={<Tooltip id="tooltip-bottom">Jest Test Framework</Tooltip>}
+              >
+                <img className="skill-image" src="./jest.png" alt="jest" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                key="bottom"
+                placement="bottom"
+                overlay={<Tooltip id="tooltip-bottom">Git & GitHub Actions</Tooltip>}
+              >
+                <img className="skill-image" src="./git.png" alt="git" />
+              </OverlayTrigger>
             </Card.Body>
           </Card>
           <Card className="text-center" id="links_card">

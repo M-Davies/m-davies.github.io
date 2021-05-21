@@ -81,3 +81,18 @@ hr.rounded {
 #footer_link {
   color: lightblue;
 }
+
+.skill-wrapper {
+  overflow: auto;
+}
+
+.skill-image {
+  width: 10%;
+  height: 40%;
+  padding: 1%;
+}
+
+.nodejs-skill-image {
+  width: 20%;
+  height: 40%;
+}

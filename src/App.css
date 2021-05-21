@@ -72,6 +72,23 @@ hr.rounded {
   bottom: 20%;
 }
 
+.carousel-indicators {
+  position: relative;
+  top: 0;
+}
+
+.carousel-control-prev {
+  display: inline;
+  position: relative;
+  right: 1%;
+}
+
+.carousel-control-next {
+  display: inline;
+  position: relative;
+  left: 1%;
+}
+
 .link-icon {
   width: 25%;
   height: 25%;

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 
 import React, { Component } from 'react';
-import { OverlayTrigger, Button, Card, Jumbotron, Tooltip } from 'react-bootstrap';
+import { Image, OverlayTrigger, Button, Card, Jumbotron, Tooltip } from 'react-bootstrap';
 import ProjectModal from './project';
 import './App.css';
 
@@ -28,7 +28,7 @@ export default class App extends Component {
           <h1>Hi! I'm Morgan! Developer, Analyst & Hobbyist</h1>
           <hr className="rounded"></hr>
           <h2>
-            My passion is in infrastructure and back-end developer, with an interest in cyber security and web development.<hr className="rounded"></hr>When I'm not working on productive software projects, I'm gaming or seeking upgrades to my slowly ageing PC
+            My passion is in infrastructure and back-end development, with an interest in cyber security and website production from time-to-time.<hr className="rounded"></hr>When I'm not working on productive software projects, I'm gaming or seeking upgrades to my old PC.
           </h2>
         </Jumbotron>
         <Card className="text-center">
@@ -138,9 +138,28 @@ export default class App extends Component {
             </div>
           </Card.Body>
         </Card>
+        <Card className="text-center">
+          <Card.Header as="h1">Testimonials</Card.Header>
+          <Card.Body>
+            <Image src="./george.jpeg" roundedCircle></Image>
+            <br/>
+            <h2>George Adams - Program Manager @ Microsoft</h2>
+            <strong>"From day 1 Morgan demonstrated the ability to learn quickly and collaborate with hundreds of contributors all over the world. Because AdoptOpenJDK is a public (open-source) project, Morgan had to learn how to engage with developers, end-users and even C-Level execs and he did this with ease. Morgan tackles all challenges in a positive way and consistently exceeds expectations. I often give Morgan a task expecting it to take a week and find that he’s completed it the next day.<br/><br/>Morgan is a true asset to the AdoptOpenJDK ecosystem and that’s the main reason that we decided to take him on part time while he finished his studies. Morgan regularly reviews code changes from senior and even principle developers and often spots bugs/required changes – something that takes a lot of skill to develop. I would strongly recommend Morgan to any employer and he will be a great asset to any company."</strong>
+            <br/>
+            <br/>
+            <Image src="./martijn.jpeg" roundedCircle></Image>
+            <h2>Martijn Verburg - Principle Engineering Group Manager @ Microsoft</h2>
+            <strong>"Morgan has been a superb contributor to AdoptOpenJDK (now Eclipse Adoptium). His work has been critical in maintaining our build scripts and CI/CD pipelines so that we can release business-ready OpenJDK binaries to millions of users around the world (270M+ downloads). Morgan is a good communicator and takes great care in providing documentation and testing when delivering features. I'd highly recommend him to any software development team!"</strong>
+            <br/>
+            <br/>
+            <Image src="./shelley.jpeg" roundedCircle></Image>
+            <h2>Shelley Lambert - Manager @ RedHat</h2>
+            <strong>"Morgan is an exceptionally skilled colleague that I have had the pleasure to work with in the past year or two at the AdoptOpenJDK (now Eclipse Adoptium) open-source project. Over and above the technical skills he has brought to the project, and what makes his presence very valuable to the project is the thorough and diligent way he communicates, tests and shares his work. I am happy to give this recommendation to potential employers, and I hope I am able to continue to have a chance to work with Morgan in the future."</strong>
+          </Card.Body>
+        </Card>
         <div className="card-group">
           <Card className="text-center" id="skills_card">
-            <Card.Header as="h1">Skills</Card.Header>
+            <Card.Header as="h1">Skills & Experience</Card.Header>
             <Card.Body className="skill-wrapper">
               <OverlayTrigger
                 key="top"

@@ -1,9 +1,200 @@
 {
   "short_name": "Morgan Davies",
   "name": "Morgan Davies's Profile Website",
-  "icons": [],
+  "icons": [
+    {
+      "src": "ace.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "angular.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "azure.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "dnd.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "docker.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "email.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "eye.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "firebase.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "ftk.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "george.jpeg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "ghidra.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "git.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "github.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "hashcat.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "java.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "jenkins.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "jest.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "kali.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "kinesis.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "kotlin.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "linkedin.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "martijn.jpeg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "metasploit.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "nmap.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "nodejs.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "openvas.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "parrot.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "profile_real.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "profile.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "python.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "quotebook.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "react.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "rekognition.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "s3.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "scalpel.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "sheffsense.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "shelley.jpeg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "wireshark.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#7510F7",
-  "background_color": "#ffffff"
+  "background_color": "#363636"
 }

@@ -3,192 +3,192 @@
   "name": "Morgan Davies's Profile Website",
   "icons": [
     {
-      "src": "public/ace.png",
+      "src": "./ace.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/angular.png",
+      "src": "angular.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/azure.png",
+      "src": "azure.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/dnd.png",
+      "src": "dnd.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/docker.png",
+      "src": "docker.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/email.png",
+      "src": "email.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/eye.png",
+      "src": "eye.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/firebase.png",
+      "src": "firebase.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/ftk.png",
+      "src": "ftk.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/george.jpeg",
+      "src": "george.jpeg",
       "type": "image/jpeg",
       "sizes": "192x192"
     },
     {
-      "src": "public/ghidra.png",
+      "src": "ghidra.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/git.png",
+      "src": "git.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/github.png",
+      "src": "github.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/hashcat.png",
+      "src": "hashcat.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/java.png",
+      "src": "java.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/jenkins.png",
+      "src": "jenkins.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/jest.png",
+      "src": "jest.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/kali.png",
+      "src": "kali.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/kinesis.png",
+      "src": "kinesis.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/kotlin.png",
+      "src": "kotlin.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/linkedin.png",
+      "src": "linkedin.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/martijn.jpeg",
+      "src": "martijn.jpeg",
       "type": "image/jpeg",
       "sizes": "192x192"
     },
     {
-      "src": "public/metasploit.png",
+      "src": "metasploit.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/nmap.png",
+      "src": "nmap.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/nodejs.png",
+      "src": "nodejs.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/openvas.png",
+      "src": "openvas.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/parrot.png",
+      "src": "parrot.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/profile_real.png",
+      "src": "profile_real.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/profile.png",
+      "src": "profile.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/python.png",
+      "src": "python.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/quotebook.png",
+      "src": "quotebook.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/react.png",
+      "src": "react.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/rekognition.png",
+      "src": "rekognition.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/s3.png",
+      "src": "s3.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/scalpel.png",
+      "src": "scalpel.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/sheffsense.png",
+      "src": "sheffsense.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "public/shelley.jpeg",
+      "src": "shelley.jpeg",
       "type": "image/jpeg",
       "sizes": "192x192"
     },
     {
-      "src": "public/wireshark.png",
+      "src": "wireshark.png",
       "type": "image/png",
       "sizes": "192x192"
     }

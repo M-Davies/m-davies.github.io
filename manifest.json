@@ -3,7 +3,7 @@
   "name": "Morgan Davies's Profile Website",
   "icons": [
     {
-      "src": "./ace.png",
+      "src": "ace.png",
       "type": "image/png",
       "sizes": "192x192"
     },

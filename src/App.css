@@ -69,7 +69,7 @@ hr.rounded {
 #links_card {
   display: inline-block;
   width: 30%;
-  height: 20%;
+  bottom: 20%;
 }
 
 .link-icon {

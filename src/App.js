@@ -32,7 +32,7 @@ export default class App extends Component {
           </h2>
         </Jumbotron>
         <Card className="text-center">
-          <Card.Header as="h1">Previous Work</Card.Header>
+          <Card.Header as="h1">Previous and Current Work</Card.Header>
           <Card.Body>
             <div className="card-group">
               <Card className="text-center">

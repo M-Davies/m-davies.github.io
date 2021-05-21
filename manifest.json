@@ -1,9 +1,200 @@
 {
   "short_name": "Morgan Davies",
   "name": "Morgan Davies's Profile Website",
-  "icons": [],
+  "icons": [
+    {
+      "src": "public/ace.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/angular.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/azure.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/dnd.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/docker.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/email.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/eye.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/firebase.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/ftk.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/george.jpeg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/ghidra.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/git.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/github.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/hashcat.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/java.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/jenkins.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/jest.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/kali.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/kinesis.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/kotlin.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/linkedin.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/martijn.jpeg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/metasploit.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/nmap.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/nodejs.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/openvas.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/parrot.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/profile_real.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/profile.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/python.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/quotebook.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/react.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/rekognition.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/s3.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/scalpel.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/sheffsense.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/shelley.jpeg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/wireshark.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#7510F7",
-  "background_color": "#ffffff"
+  "background_color": "#363636"
 }

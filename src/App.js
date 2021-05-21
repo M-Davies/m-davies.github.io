@@ -59,7 +59,7 @@ export default class App extends Component {
                   size="lg"
                   block
                 >
-                  <img src="https://assets.dicebreaker.com/dungeons-and-dragons-volos-guide-to-monsters-artwork.jpg/BROK/resize/1200x1200%3E/format/jpg/quality/70/dungeons-and-dragons-volos-guide-to-monsters-artwork.jpg" alt="oghma-logo" id="oghma_project_button_img"/>
+                  <img id="dnd_project_button" src="./dnd.png" alt="oghma-logo"/>
                 </Button>
               </Card>
               <ProjectModal

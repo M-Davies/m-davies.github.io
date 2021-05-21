@@ -39,11 +39,10 @@ export default class App extends Component {
                 <Button
                   onClick={() => this.setState({showEye: true})}
                   className="project-button"
-                  id="eye_project_button"
                   size="lg"
                   block
                 >
-                  <img src="./eye.png" alt="eye-of-horus-logo" />
+                  <img id="eye_project_image" src="./eye.png" alt="eye-of-horus-logo" />
                 </Button>
               </Card>
               <ProjectModal

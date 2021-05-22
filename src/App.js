@@ -189,13 +189,13 @@ export default class App extends Component {
               </OverlayTrigger>
               <OverlayTrigger
                 placement="top"
-                overlay={<Tooltip id="tooltip-top">Metasploit</Tooltip>}
+                overlay={<Tooltip id="tooltip-top">Metasploit Exploitation Framework</Tooltip>}
               >
                 <img className="skill-image" src="./metasploit.png" alt="metasploit" />
               </OverlayTrigger>
               <OverlayTrigger
                 placement="top"
-                overlay={<Tooltip id="tooltip-top">Ghidra</Tooltip>}
+                overlay={<Tooltip id="tooltip-top">Ghidra Reverse Engineering</Tooltip>}
               >
                 <img className="skill-image" src="./ghidra.png" alt="ghidra" />
               </OverlayTrigger>
@@ -208,7 +208,7 @@ export default class App extends Component {
               <br/>
               <OverlayTrigger
                 placement="left"
-                overlay={<Tooltip id="tooltip-left">Jenkins</Tooltip>}
+                overlay={<Tooltip id="tooltip-left">Jenkins CI/CD</Tooltip>}
               >
                 <img className="skill-image" src="./jenkins.png" alt="jenkins" />
               </OverlayTrigger>
@@ -244,13 +244,13 @@ export default class App extends Component {
               </OverlayTrigger>
               <OverlayTrigger
                 placement="right"
-                overlay={<Tooltip id="tooltip-right">Scalpel</Tooltip>}
+                overlay={<Tooltip id="tooltip-right">Scalpel Data Carving</Tooltip>}
               >
                 <img className="skill-image" src="./scalpel.png" alt="scalpel" />
               </OverlayTrigger>
               <OverlayTrigger
                 placement="right"
-                overlay={<Tooltip id="tooltip-right">OpenVAS</Tooltip>}
+                overlay={<Tooltip id="tooltip-right">Greenbone OpenVAS</Tooltip>}
               >
                 <img className="skill-image" src="./openvas.png" alt="openvas" />
               </OverlayTrigger>
@@ -309,11 +309,20 @@ export default class App extends Component {
               >
                 <img className="skill-image" src="./git.png" alt="git" />
               </OverlayTrigger>
+              <OverlayTrigger
+                placement="bottom"
+                overlay={<Tooltip id="tooltip-bottom">Agile Framework</Tooltip>}
+              >
+                <img className="skill-image" src="./agile.png" alt="agile" />
+              </OverlayTrigger>
             </Card.Body>
           </Card>
           <Card className="text-center" id="links_card">
             <Card.Header as="h1">Links & Contact</Card.Header>
             <Card.Body>
+            <a href="https://drive.google.com/file/d/1cSEdVp63geNT-GEt9HeDN4bAqDa_RpxU/view?usp=sharing" target="_blank" rel="noreferrer">
+              <img className="link-icon" src="./cv.png" alt="CV" />
+            </a>
             <a href="mailto:morgandavies2020@gmail.com" target="_blank" rel="noreferrer">
               <img className="link-icon" src="./email.png" alt="Email" />
             </a>

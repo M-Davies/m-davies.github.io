@@ -8,12 +8,22 @@
       "sizes": "192x192"
     },
     {
+      "src": "agile.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
       "src": "angular.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
       "src": "azure.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "cv.png",
       "type": "image/png",
       "sizes": "192x192"
     },

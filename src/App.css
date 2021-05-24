@@ -92,6 +92,11 @@ hr.rounded {
   left: 1%;
 }
 
+.testimonial-image {
+  height: 10%;
+  width: 10%;
+}
+
 .link-icon {
   width: 25%;
   height: 25%;

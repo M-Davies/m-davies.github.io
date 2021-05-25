@@ -135,6 +135,13 @@ export default class App extends Component {
                 onHide={() => this.setState({showQuote: false})}
               />
             </div>
+            <Card.Text>
+              <a id="project_footer" href="https://github.com/sponsors/M-Davies" target="_blank" rel="noreferrer">
+                I'm always looking for more opportunities to test my skills in both programming and security, no matter the quantity or difficulty of work required.
+                <br/>
+                Sponsor me today by clicking here!
+              </a>
+            </Card.Text>
           </Card.Body>
         </Card>
         <Card className="text-center">

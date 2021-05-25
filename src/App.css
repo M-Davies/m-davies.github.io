@@ -62,6 +62,12 @@ hr.rounded {
   height: 10vmax;
 }
 
+#project_footer {
+  font-size: larger;
+  font-weight: bolder;
+  color: yellow;
+}
+
 .card-group {
   margin: 1%;
 }

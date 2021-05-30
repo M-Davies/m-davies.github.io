@@ -333,9 +333,6 @@ export default class App extends Component {
           <Card className="text-center" id="links_card">
             <Card.Header as="h1">Links & Contact</Card.Header>
             <Card.Body>
-            <a href="https://drive.google.com/file/d/1cSEdVp63geNT-GEt9HeDN4bAqDa_RpxU/view?usp=sharing" target="_blank" rel="noreferrer">
-              <img className="link-icon" src="./cv.png" alt="CV" />
-            </a>
             <a href="mailto:morgandavies2020@gmail.com" target="_blank" rel="noreferrer">
               <img className="link-icon" src="./email.png" alt="Email" />
             </a>

@@ -25,10 +25,10 @@ export default class App extends Component {
       <div className="Wrapper">
         <Jumbotron id="jumbotron_header">
           <img src="./profile.png" alt="Profile Pic" id="profile_pic" />
-          <h1>Hi! I'm Morgan! Developer, Analyst & Hobbyist</h1>
+          <h1>Hi! I'm Morgan! Security Developer, Analyst & Hobbyist</h1>
           <hr className="rounded"></hr>
           <h2>
-            My passion is in infrastructure and back-end development, with an interest in cyber security and website production from time-to-time.<hr className="rounded"></hr>When I'm not working on productive software projects, I'm gaming or seeking upgrades to my old PC.
+            My passion is in cyber security with a focus on Machine Learning and Cloud Services. However, I also have an interest in infrastructure, back-end and website development.<hr className="rounded"></hr>When I'm not working on productive software projects, I'm procrastinating by playing video games, upgrading my PC or Airsoft gear, working out in the gym or drinking excessive amounts of tea!
           </h2>
         </Jumbotron>
         <Card className="text-center">
@@ -327,6 +327,12 @@ export default class App extends Component {
                 overlay={<Tooltip id="tooltip-bottom">Agile Framework</Tooltip>}
               >
                 <img className="skill-image" src="./agile.png" alt="agile" />
+              </OverlayTrigger>
+              <OverlayTrigger
+                placement="bottom"
+                overlay={<Tooltip id="tooltip-bottom">Splunk</Tooltip>}
+              >
+                <img className="skill-image" src="./splunk.png" alt="splunk" />
               </OverlayTrigger>
             </Card.Body>
           </Card>

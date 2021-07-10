@@ -188,6 +188,11 @@
       "sizes": "192x192"
     },
     {
+      "src": "splunk.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
       "src": "stewart.jpeg",
       "type": "image/jpeg",
       "sizes": "192x192"

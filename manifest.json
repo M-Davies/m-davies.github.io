@@ -203,6 +203,11 @@
       "sizes": "192x192"
     },
     {
+      "src": "testcafe.jpeg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
       "src": "wireshark.png",
       "type": "image/png",
       "sizes": "192x192"

@@ -269,62 +269,62 @@ export default class App extends Component {
               </OverlayTrigger>
               <br/>
               <OverlayTrigger
-                placement="bottom"
-                overlay={<Tooltip id="tooltip-bottom">AWS S3</Tooltip>}
+                placement="left"
+                overlay={<Tooltip id="tooltip-left">AWS S3</Tooltip>}
               >
                 <img className="skill-image" src="./s3.png" alt="s3" />
               </OverlayTrigger>
               <OverlayTrigger
-                placement="bottom"
-                overlay={<Tooltip id="tooltip-bottom">AWS Kinesis</Tooltip>}
+                placement="left"
+                overlay={<Tooltip id="tooltip-left">AWS Kinesis</Tooltip>}
               >
                 <img className="skill-image" src="./kinesis.png" alt="kinesis" />
               </OverlayTrigger>
               <OverlayTrigger
-                placement="bottom"
-                overlay={<Tooltip id="tooltip-bottom">AWS Rekognition</Tooltip>}
+                placement="left"
+                overlay={<Tooltip id="tooltip-left">AWS Rekognition</Tooltip>}
               >
                 <img className="skill-image" src="./rekognition.png" alt="rekognition" />
               </OverlayTrigger>
               <OverlayTrigger
-                placement="bottom"
-                overlay={<Tooltip id="tooltip-bottom">Microsoft Azure</Tooltip>}
+                placement="left"
+                overlay={<Tooltip id="tooltip-left">Microsoft Azure</Tooltip>}
               >
                 <img className="skill-image" src="./azure.png" alt="azure" />
               </OverlayTrigger>
               <OverlayTrigger
-                placement="bottom"
-                overlay={<Tooltip id="tooltip-bottom">Google Firebase</Tooltip>}
+                placement="left"
+                overlay={<Tooltip id="tooltip-left">Google Firebase</Tooltip>}
               >
                 <img className="skill-image" src="./firebase.png" alt="firebase" />
               </OverlayTrigger>
               <OverlayTrigger
-                placement="bottom"
-                overlay={<Tooltip id="tooltip-bottom">Kali Linux</Tooltip>}
+                placement="right"
+                overlay={<Tooltip id="tooltip-right">Kali Linux</Tooltip>}
               >
                 <img className="skill-image" src="./kali.png" alt="kali" />
               </OverlayTrigger>
               <OverlayTrigger
-                placement="bottom"
-                overlay={<Tooltip id="tooltip-bottom">Parrot Linux</Tooltip>}
+                placement="right"
+                overlay={<Tooltip id="tooltip-right">Parrot Linux</Tooltip>}
               >
                 <img className="skill-image" src="./parrot.png" alt="parrot" />
               </OverlayTrigger>
               <OverlayTrigger
-                placement="bottom"
-                overlay={<Tooltip id="tooltip-bottom">Jest Test Framework</Tooltip>}
+                placement="right"
+                overlay={<Tooltip id="tooltip-right">Jest Test Framework</Tooltip>}
               >
                 <img className="skill-image" src="./jest.png" alt="jest" />
               </OverlayTrigger>
               <OverlayTrigger
-                placement="bottom"
-                overlay={<Tooltip id="tooltip-bottom">Git & GitHub Actions</Tooltip>}
+                placement="right"
+                overlay={<Tooltip id="tooltip-right">Git & GitHub Actions</Tooltip>}
               >
                 <img className="skill-image" src="./git.png" alt="git" />
               </OverlayTrigger>
               <OverlayTrigger
-                placement="bottom"
-                overlay={<Tooltip id="tooltip-bottom">Agile Framework</Tooltip>}
+                placement="right"
+                overlay={<Tooltip id="tooltip-right">Agile Framework</Tooltip>}
               >
                 <img className="skill-image" src="./agile.png" alt="agile" />
               </OverlayTrigger>

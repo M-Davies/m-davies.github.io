@@ -340,6 +340,12 @@ export default class App extends Component {
               >
                 <img className="skill-image" src="./splunk.png" alt="splunk" />
               </OverlayTrigger>
+              <OverlayTrigger
+                placement="bottom"
+                overlay={<Tooltip id="tooltip-bottom">TestCafe</Tooltip>}
+              >
+                <img className="skill-image" src="./testcafe.png" alt="testcafe" />
+              </OverlayTrigger>
             </Card.Body>
           </Card>
           <Card className="text-center" id="links_card">

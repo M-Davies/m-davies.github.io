@@ -346,6 +346,12 @@ export default class App extends Component {
               >
                 <img className="skill-image" src="./testcafe.png" alt="testcafe" />
               </OverlayTrigger>
+              <OverlayTrigger
+                placement="bottom"
+                overlay={<Tooltip id="tooltip-bottom">Burp Suite</Tooltip>}
+              >
+                <img className="skill-image" src="./burp.png" alt="burpsuite" />
+              </OverlayTrigger>
             </Card.Body>
           </Card>
           <Card className="text-center" id="links_card">

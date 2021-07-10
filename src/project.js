@@ -1,6 +1,8 @@
 import React from 'react'
 import { Button, Modal } from 'react-bootstrap'
 
+import "./App.css"
+
 export default function ProjectModal (props) {
     if (props.modalname === "eye") {
         return (
@@ -41,7 +43,7 @@ export default function ProjectModal (props) {
             <Modal.Body>
               <h4>A dungeons and dragons discord bot</h4>
               <p>
-                A Python data parser and dice roller for dungeons and dragons groups on discord. The bot is unique as it only uses publically available open source information. It is hosted on Heroku.
+                A Python data parser and dice roller for dungeons and dragons groups on discord. The bot is unique as it only uses publically available, open source dungeons and dragons data from the <a href="https://open5e.com/" target="_blank" rel="noreferrer">Open5e</a> API. It is hosted on Heroku.
               </p>
             </Modal.Body>
             <Modal.Footer>

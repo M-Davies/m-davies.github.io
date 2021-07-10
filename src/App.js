@@ -25,10 +25,16 @@ export default class App extends Component {
       <div className="Wrapper">
         <Jumbotron id="jumbotron_header">
           <img src="./profile.png" alt="Profile Pic" id="profile_pic" />
-          <h1>Hi! I'm Morgan! Security Developer, Analyst & Hobbyist</h1>
-          <hr className="rounded"></hr>
+          <h1 id="profile_title">
+            Hi! I'm Morgan Davies.
+            <br/>
+            Security Developer, Analyst & Hobbyist
+          </h1>
+          <hr className="rounded"/>
           <h2>
-            My passion is in cyber security with a focus on Machine Learning and Cloud Services. However, I also have an interest in infrastructure, back-end and website development.<hr className="rounded"></hr>When I'm not working on productive software projects, I'm procrastinating by playing video games, upgrading my PC or Airsoft gear, working out in the gym or drinking excessive amounts of tea!
+            My passion is in cyber security with a focus on Machine Learning and Cloud Services. However, I also have an interest in infrastructure, back-end and website development.
+            <hr className="rounded"/>
+            When I'm not working on productive software projects, I'm procrastinating by playing video games, upgrading my PC or Airsoft gear, working out in the gym or drinking excessive amounts of tea!
           </h2>
         </Jumbotron>
         <Card className="text-center">

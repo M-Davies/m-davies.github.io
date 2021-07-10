@@ -1,10 +1,14 @@
 body {
-  font-family: "Roboto Mono";
+  font-family: "Helvetica";
   color: white;
 }
 
 h1 {
   font-weight: bolder;
+}
+
+#profile_title {
+  color: greenyellow;
 }
 
 .Wrapper {

@@ -25,16 +25,31 @@ export default class App extends Component {
       <div className="Wrapper">
         <Jumbotron id="jumbotron_header">
           <img src="./profile.png" alt="Profile Pic" id="profile_pic" />
+          <div>
+            <a target="_blank" rel="noreferrer" href="https://www.ibm.com">
+              <img class="job-icon" src="./ibm.jpg" alt="IBM logo" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://adoptium.net/">
+              <img class="job-icon" src="./adoptium.png" alt="Adoptium logo" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://www.gossinteractive.com/">
+              <img class="job-icon" src="./goss.png" alt="GOSS logo" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://www.nccgroupplc.com/">
+              <img class="job-icon" src="./ncc.png" alt="NCC Group logo" />
+            </a>
+          </div>
+          <br/>
           <h1 id="profile_title">
-            Hi! I'm Morgan Davies.
+            Hi! I'm Morgan!
             <br/>
-            Security Developer, Analyst & Hobbyist
+            Security Consultant, Developer & Hobbyist
           </h1>
           <hr className="rounded"/>
           <h2>
             My passion is in cyber security with a focus on Machine Learning and Cloud Services. However, I also have an interest in infrastructure, back-end and website development.
             <hr className="rounded"/>
-            When I'm not working on productive software projects, I'm procrastinating by playing video games, upgrading my PC or Airsoft gear, working out in the gym or drinking excessive amounts of tea!
+            When I'm not hacking into systems or working on productive software projects, I'm procrastinating by playing video games, upgrading my PC or Airsoft gear, working out in the gym or drinking excessive amounts of tea!
           </h2>
         </Jumbotron>
         <Card className="text-center">

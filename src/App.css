@@ -29,6 +29,18 @@ hr.rounded {
   color: black;
 }
 
+.current-job-icon {
+  width: 20%;
+  height: 20%;
+  float: right;
+}
+
+.job-icon {
+  width: 20%;
+  height: 20%;
+  padding-left: 2%;
+}
+
 #profile_pic {
   width: 20%;
   height: 20%;

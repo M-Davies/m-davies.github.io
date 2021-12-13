@@ -160,7 +160,7 @@ export default function ProjectModal (props) {
               </p>
             </Modal.Body>
             <Modal.Footer>
-              <Button href="https://github.com/M-Davies/oghma" target="_blank" rel="noreferrer">Repository</Button>
+              <Button href="https://github.com/M-Davies/quotebook" target="_blank" rel="noreferrer">Repository</Button>
               <Button variant="success" href="https://sparkfabrik-2896a.web.app/" target="_blank" rel="noreferrer">Website</Button>
               <Button variant="danger" onClick={props.onHide}>Close</Button>
             </Modal.Footer>

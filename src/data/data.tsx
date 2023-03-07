@@ -1,8 +1,10 @@
 import {
   AcademicCapIcon,
- MailIcon,  MapIcon,
+  MailIcon,
+  MapIcon,
   OfficeBuildingIcon,
-  SparklesIcon} from "@heroicons/react/outline";
+  SparklesIcon,
+} from "@heroicons/react/outline";
 
 import GithubIcon from "../components/Icon/GithubIcon";
 import LinkedInIcon from "../components/Icon/LinkedInIcon";

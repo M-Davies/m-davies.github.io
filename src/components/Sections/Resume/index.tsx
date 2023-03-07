@@ -1,10 +1,10 @@
-import {FC, memo} from 'react';
+import {FC, memo} from "react";
 
 // import {education, experience} from '../../../data/data';
-import {SectionId, skills} from '../../../data/data';
-import Section from '../../Layout/Section';
-import ResumeSection from './ResumeSection';
-import {SkillGroup} from './Skills';
+import {SectionId, skills} from "../../../data/data";
+import Section from "../../Layout/Section";
+import ResumeSection from "./ResumeSection";
+import {SkillGroup} from "./Skills";
 // import TimelineItem from './TimelineItem';
 
 const Resume: FC = memo(() => {
@@ -22,10 +22,19 @@ const Resume: FC = memo(() => {
           ))}
         </ResumeSection> */}
         <ResumeSection title="Skills">
-          <p className="pb-8">My work and education history is present on my CV (available <u><a href="#contact">on request</a></u>). Below is a self evalaution of my strongest skills. :</p>
+          <p className="pb-8">
+            My work and education history is present on my CV (available{" "}
+            <u>
+              <a href="#contact">on request</a>
+            </u>
+            ). Below is a self evalaution of my strongest skills. :
+          </p>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             {skills.map((skillgroup, index) => (
-              <SkillGroup key={`${skillgroup.name}-${index}`} skillGroup={skillgroup} />
+              <SkillGroup
+                key={`${skillgroup.name}-${index}`}
+                skillGroup={skillgroup}
+              />
             ))}
           </div>
         </ResumeSection>
@@ -34,5 +43,5 @@ const Resume: FC = memo(() => {
   );
 });
 
-Resume.displayName = 'Resume';
+Resume.displayName = "Resume";
 export default Resume;

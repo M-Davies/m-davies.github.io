@@ -1,13 +1,13 @@
-import {StaticImageData} from 'next/image';
-import {FC, SVGProps} from 'react';
+import {StaticImageData} from "next/image";
+import {FC, SVGProps} from "react";
 
-import {IconProps} from '../components/Icon/Icon';
+import {IconProps} from "../components/Icon/Icon";
 
 export interface HomepageMeta {
   title: string;
   description: string;
   ogImageUrl?: string;
-  twitterCardType?: 'summary' | 'summary_large';
+  twitterCardType?: "summary" | "summary_large";
   twitterTitle?: string;
   twitterSite?: string;
   twitterCreator?: string;
@@ -117,14 +117,14 @@ export interface ContactSection {
 }
 
 export const ContactType = {
-  Email: 'Email',
-  Phone: 'Phone',
-  Location: 'Location',
-  Github: 'Github',
-  LinkedIn: 'LinkedIn',
-  Facebook: 'Facebook',
-  Twitter: 'Twitter',
-  Instagram: 'Instagram',
+  Email: "Email",
+  Phone: "Phone",
+  Location: "Location",
+  Github: "Github",
+  LinkedIn: "LinkedIn",
+  Facebook: "Facebook",
+  Twitter: "Twitter",
+  Instagram: "Instagram",
 } as const;
 
 export type ContactType = typeof ContactType[keyof typeof ContactType];

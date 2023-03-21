@@ -6,6 +6,7 @@ import {
   SparklesIcon,
 } from "@heroicons/react/outline";
 
+import TryHackMeIcon from "../components/Icon/TryHackMeIcon";
 import GithubIcon from "../components/Icon/GithubIcon";
 import LinkedInIcon from "../components/Icon/LinkedInIcon";
 import heroImage from "../images/header-background.jpg";
@@ -293,9 +294,6 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
   {label: "Email", Icon: MailIcon, href: "mailto:morgandavies2020@gmail.com"},
   {label: "Github", Icon: GithubIcon, href: "https://github.com/M-Davies"},
-  {
-    label: "LinkedIn",
-    Icon: LinkedInIcon,
-    href: "https://www.linkedin.com/in/mdavies12/",
-  },
+  {label: "LinkedIn", Icon: LinkedInIcon, href: "https://www.linkedin.com/in/mdavies12/"},
+  {label: "TryHackMe", Icon: TryHackMeIcon, href: "https://tryhackme.com/p/MDavies"}
 ];

@@ -1,6 +1,5 @@
 import {
   AcademicCapIcon,
-  MailIcon,
   MapIcon,
   OfficeBuildingIcon,
   SparklesIcon,
@@ -271,11 +270,6 @@ export const contact: ContactSection = {
       href: "https://goo.gl/maps/F3rphNLX7kGoRNhN6",
     },
     {
-      type: ContactType.Email,
-      text: "morgandavies2020@gmail.com",
-      href: "mailto:morgandavies2020@gmail.com",
-    },
-    {
       type: ContactType.LinkedIn,
       text: "Morgan Davies",
       href: "https://www.linkedin.com/in/mdavies12/",
@@ -292,7 +286,6 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: "Email", Icon: MailIcon, href: "mailto:morgandavies2020@gmail.com"},
   {label: "Github", Icon: GithubIcon, href: "https://github.com/M-Davies"},
   {label: "LinkedIn", Icon: LinkedInIcon, href: "https://www.linkedin.com/in/mdavies12/"},
   {label: "TryHackMe", Icon: TryHackMeIcon, href: "https://tryhackme.com/p/MDavies"}

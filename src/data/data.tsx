@@ -13,6 +13,7 @@ import armaApiImage from "../images/portfolio/armaApiImage.png";
 import eyeOfHoursImage from "../images/portfolio/eyeOfHoursImage.png";
 import oghmaImage from "../images/portfolio/oghmaImage.png";
 import temurinBuildImage from "../images/portfolio/temurinBuildImage.png";
+import ctftimeImage from "../images/portfolio/ctftime.png";
 import profilepic from "../images/profilepic.jpg";
 import testimonialImage from "../images/testimonial.webp";
 import {
@@ -168,6 +169,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: "A facial and gesture recognition authentication system",
     url: "https://github.com/M-Davies/eye-of-horus",
     image: eyeOfHoursImage,
+  },
+  {
+    title: "CTF Writeups",
+    description: "Writeups of CTFs I have participated in",
+    url: "https://github.com/M-Davies/CTF-Writeups",
+    image: ctftimeImage,
   },
   {
     title: "Oghma",

@@ -14,6 +14,8 @@ import armaApiImage from "../images/portfolio/armaApiImage.png";
 import eyeOfHoursImage from "../images/portfolio/eyeOfHoursImage.png";
 import oghmaImage from "../images/portfolio/oghmaImage.png";
 import temurinBuildImage from "../images/portfolio/temurinBuildImage.png";
+import bonkImage from "../images/portfolio/bonkImage.png";
+import ctfImage from "../images/portfolio/ctfImage.png";
 import profilepic from "../images/profilepic.jpg";
 import testimonialImage from "../images/testimonial.webp";
 import {
@@ -117,7 +119,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: "Active Directory",
-        level: 8,
+        level: 7,
       },
       {
         name: "UNIX & Windows Privilege Escalation",
@@ -125,7 +127,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: "Programming",
-        level: 7,
+        level: 8,
       },
       {
         name: "OSINT & Reconnaissance",
@@ -133,7 +135,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: "Cloud Services",
-        level: 5,
+        level: 7,
       },
     ],
   },
@@ -187,6 +189,18 @@ export const portfolioItems: PortfolioItem[] = [
     description: "Eclipse Temurin build scripts for OpenJDK binaries",
     url: "https://github.com/adoptium/temurin-build",
     image: temurinBuildImage,
+  },
+  {
+    title: "Bonk",
+    description: "Makes a bonk noise when you SIGINT a command 🔨",
+    url: "https://github.com/M-Davies/bonk",
+    image: bonkImage,
+  },
+  {
+    title: "CTF-Writeups",
+    description: "A collection of my CTF challenge writeups",
+    url: "https://github.com/M-Davies/CTF-Writeups",
+    image: ctfImage,
   },
 ];
 

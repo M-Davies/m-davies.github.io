@@ -1,6 +1,5 @@
 import {
   AcademicCapIcon,
-  MailIcon,
   MapIcon,
   OfficeBuildingIcon,
   SparklesIcon,
@@ -16,6 +15,7 @@ import oghmaImage from "../images/portfolio/oghmaImage.png";
 import temurinBuildImage from "../images/portfolio/temurinBuildImage.png";
 import bonkImage from "../images/portfolio/bonkImage.png";
 import ctfImage from "../images/portfolio/ctfImage.png";
+import ctftimeImage from "../images/portfolio/ctftime.png";
 import profilepic from "../images/profilepic.jpg";
 import testimonialImage from "../images/testimonial.webp";
 import {
@@ -173,6 +173,12 @@ export const portfolioItems: PortfolioItem[] = [
     image: eyeOfHoursImage,
   },
   {
+    title: "CTF Writeups",
+    description: "Writeups of CTFs I have participated in",
+    url: "https://github.com/M-Davies/CTF-Writeups",
+    image: ctftimeImage,
+  },
+  {
     title: "Oghma",
     description: "Rules and references bot for discord d&d groups",
     url: "https://github.com/M-Davies/oghma",
@@ -254,19 +260,19 @@ export const testimonial: TestimonialSection = {
       name: "George Adams",
       text: "From day 1 Morgan demonstrated the ability to learn quickly and collaborate with hundreds of contributors all over the world. Because AdoptOpenJDK is a public (open-source) project, Morgan had to learn how to engage with developers, end-users and even C-Level execs and he did this with ease. Morgan tackles all challenges in a positive way and consistently exceeds expectations. I often give Morgan a task expecting it to take a week and find that he's completed it the next day. I would strongly recommend Morgan to any employer and he will be a great asset to any company.",
       image:
-        "https://media.licdn.com/dms/image/C4E03AQEAaNEb13HBdg/profile-displayphoto-shrink_100_100/0/1532002790788?e=1683763200&v=beta&t=c2BxtUdu03JS-FmfWSfVswls5sPeGa9C7lLAFsb_JDQ",
+        "https://m-davies.github.io/george.jpeg",
     },
     {
       name: "Martijn Verburg",
       text: "Morgan has been a superb contributor to AdoptOpenJDK (now Eclipse Adoptium). His work has been critical in maintaining our build scripts and CI/CD pipelines so that we can release business-ready OpenJDK binaries to millions of users around the world (270M+ downloads). Morgan is a good communicator and takes great care in providing documentation and testing when delivering features. I'd highly recommend him to any software development team!",
       image:
-        "https://media.licdn.com/dms/image/C4D03AQElhp_CzkOpNg/profile-displayphoto-shrink_100_100/0/1572966642068?e=1683763200&v=beta&t=r44b6ICq08XZWgOuxhgmpV2HHRO2D7QikAnDiIzDwvg",
+        "https://m-davies.github.io/martijn.jpeg",
     },
     {
       name: "Shelley Lambert",
       text: "Morgan is an exceptionally skilled colleague that I have had the pleasure to work with in the past year or two at the AdoptOpenJDK (now Eclipse Adoptium) open-source project. Over and above the technical skills he has brought to the project, and what makes his presence very valuable to the project is the thorough and diligent way he communicates, tests and shares his work. I am happy to give this recommendation to potential employers, and I hope I am able to continue to have a chance to work with Morgan in the future.",
       image:
-        "https://media.licdn.com/dms/image/C4D03AQHFwVdTWSd7og/profile-displayphoto-shrink_100_100/0/1516280994584?e=1683763200&v=beta&t=IbssmRO2q6OeVEjf2cStTXPuyPzn-_9Eg_rzRGOeW0c",
+        "https://m-davies.github.io/shelley.jpeg",
     },
   ],
 };
@@ -285,11 +291,6 @@ export const contact: ContactSection = {
       href: "https://goo.gl/maps/F3rphNLX7kGoRNhN6",
     },
     {
-      type: ContactType.Email,
-      text: "morgandavies2020@gmail.com",
-      href: "mailto:morgandavies2020@gmail.com",
-    },
-    {
       type: ContactType.LinkedIn,
       text: "Morgan Davies",
       href: "https://www.linkedin.com/in/mdavies12/",
@@ -306,7 +307,6 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: "Email", Icon: MailIcon, href: "mailto:morgandavies2020@gmail.com"},
   {label: "Github", Icon: GithubIcon, href: "https://github.com/M-Davies"},
   {label: "LinkedIn", Icon: LinkedInIcon, href: "https://www.linkedin.com/in/mdavies12/"},
   {label: "TryHackMe", Icon: TryHackMeIcon, href: "https://tryhackme.com/p/MDavies"}

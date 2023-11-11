@@ -15,6 +15,7 @@ import oghmaImage from "../images/portfolio/oghmaImage.png";
 import temurinBuildImage from "../images/portfolio/temurinBuildImage.png";
 import bonkImage from "../images/portfolio/bonkImage.png";
 import ctfImage from "../images/portfolio/ctfImage.png";
+import jump4joyImage from "../images/portfolio/jump4joy.png";
 import profilepic from "../images/profilepic.jpg";
 import testimonialImage from "../images/testimonial.webp";
 import {
@@ -200,6 +201,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: "A collection of my CTF challenge writeups",
     url: "https://github.com/M-Davies/CTF-Writeups",
     image: ctfImage,
+  },
+  {
+    title: "jump4joy",
+    description: "A simple AWS jumpbox for personal and business use",
+    url: "https://github.com/M-Davies/jump4joy",
+    image: jump4joyImage,
   },
 ];
 

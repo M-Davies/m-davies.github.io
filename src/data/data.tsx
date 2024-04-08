@@ -36,7 +36,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: "Morgan Davies",
-  description: "Morgan Davies's Personal Website",
+  description: "Morgan's Personal Website",
 };
 
 /**
@@ -65,13 +65,8 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         {" "}
-        I'm a Manchester based{" "}
-        <strong className="text-stone-100">Security Consultant</strong>{" "}
-        currently conducting offensive security activities against client
-        systems and building educational resources for newcomers to the
-        industry. In my free time time, you can catch me training in the gym,
-        strumming my electric guitar or travelling across various European
-        cities.{" "}
+        I'm a Manchester based <strong className="text-stone-100">Penetration Tester</strong>, currently conducting offensive security activities against client systems and slowly automating my way out of my personal life. In my free time, you can catch me training in the gym, strumming my electric guitar or travelling across various European cities.
+        {" "}
       </p>
     </>
   ),
@@ -89,15 +84,23 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Penetration tester and security consultant with 1.5 years in the security industry, focusing on advanced certifications, currently looking for offensive security roles within the Greater Manchester area. I'm well versed in web application assessments, Active Directory penetration along with Windows & UNIX reconnaissance, enumeration and exploitation. I have also employed common OSINT and social engineering strategies, including social media and repository enumeration for both client and personal work. To top it off, I have built up a strong foundation of soft skills, such as report writing and negotiation, from continuous client jobs.`,
+  description: `Penetration tester and security consultant with 2.5 years in the security industry. I'm currently focusing on passing my CRT and PNPT certifications, while looking for offensive security roles within the Greater Manchester area and beyond. I'm well versed in web application assessments, Active Directory engagements alongside Windows & UNIX reconnaissance, enumeration and exploitation. I have also employed common OSINT and social engineering strategies, including social media and repository enumeration for both client and personal work. To top it off, I have built up a strong foundation of soft skills, such as report writing and negotiation, from continuous client jobs.`,
   aboutItems: [
-    {label: "Location", text: "Manchester, UK", Icon: MapIcon},
+    {
+      label: "Location",
+      text: "Manchester, UK",
+      Icon: MapIcon
+    },
     {
       label: "Interests",
       text: "Computing, Music, Travelling",
       Icon: SparklesIcon,
     },
-    {label: "Study", text: "BSC with Honours", Icon: AcademicCapIcon},
+    {
+      label: "Study",
+      text: "BSC with Honours",
+      Icon: AcademicCapIcon
+    },
     {
       label: "Employment",
       text: "Information Assurance Firm",
@@ -118,23 +121,35 @@ export const skills: SkillGroup[] = [
         level: 9,
       },
       {
-        name: "Active Directory",
-        level: 7,
+        name: "Programming/Scripting",
+        level: 9,
+      },
+      {
+        name: "Code Review",
+        level: 9,
+      },
+      {
+        name: "Supply Chain Exploitation",
+        level: 9,
       },
       {
         name: "UNIX & Windows Privilege Escalation",
         level: 8,
       },
       {
-        name: "Programming",
+        name: "Cloud Services",
         level: 8,
       },
       {
         name: "OSINT & Reconnaissance",
-        level: 6,
+        level: 7,
       },
       {
-        name: "Cloud Services",
+        name: "Active Directory",
+        level: 7,
+      },
+      {
+        name: "System Administration",
         level: 7,
       },
     ],
@@ -153,6 +168,10 @@ export const skills: SkillGroup[] = [
       {
         name: "Client Negotiation",
         level: 8,
+      },
+      {
+        name: "Presenting",
+        level: 7,
       },
       {
         name: "LaTeX",

@@ -14,7 +14,6 @@ import eyeOfHoursImage from "../images/portfolio/eyeOfHoursImage.png";
 import oghmaImage from "../images/portfolio/oghmaImage.png";
 import temurinBuildImage from "../images/portfolio/temurinBuildImage.png";
 import bonkImage from "../images/portfolio/bonkImage.png";
-import ctfImage from "../images/portfolio/ctfImage.png";
 import jump4joyImage from "../images/portfolio/jump4joy.png";
 import profilepic from "../images/profilepic.jpg";
 import testimonialImage from "../images/testimonial.webp";
@@ -214,12 +213,6 @@ export const portfolioItems: PortfolioItem[] = [
     description: "Makes a bonk noise when you SIGINT a command 🔨",
     url: "https://github.com/M-Davies/bonk",
     image: bonkImage,
-  },
-  {
-    title: "CTF-Writeups",
-    description: "A collection of my CTF challenge writeups",
-    url: "https://github.com/M-Davies/CTF-Writeups",
-    image: ctfImage,
   },
   {
     title: "jump4joy",

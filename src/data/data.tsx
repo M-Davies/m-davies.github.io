@@ -16,7 +16,7 @@ import temurinBuildImage from "../images/portfolio/temurinBuildImage.png";
 import bonkImage from "../images/portfolio/bonkImage.png";
 import ctfImage from "../images/portfolio/ctfImage.png";
 import jump4joyImage from "../images/portfolio/jump4joy.png";
-import profilepic from "../images/profilepic.jpg";
+import profilepic from "../images/profilepic.png";
 import testimonialImage from "../images/testimonial.webp";
 import {
   About,

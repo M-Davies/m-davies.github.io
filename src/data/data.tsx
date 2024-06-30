@@ -6,6 +6,7 @@ import {
 } from "@heroicons/react/outline";
 
 import TryHackMeIcon from "../components/Icon/TryHackMeIcon";
+import HackTheBoxIcon from "../components/Icon/HackTheBoxIcon";
 import GithubIcon from "../components/Icon/GithubIcon";
 import LinkedInIcon from "../components/Icon/LinkedInIcon";
 import heroImage from "../images/header-background.jpg";
@@ -14,7 +15,6 @@ import eyeOfHoursImage from "../images/portfolio/eyeOfHoursImage.png";
 import oghmaImage from "../images/portfolio/oghmaImage.png";
 import temurinBuildImage from "../images/portfolio/temurinBuildImage.png";
 import bonkImage from "../images/portfolio/bonkImage.png";
-import ctfImage from "../images/portfolio/ctfImage.png";
 import jump4joyImage from "../images/portfolio/jump4joy.png";
 import profilepic from "../images/profilepic.png";
 import testimonialImage from "../images/testimonial.webp";
@@ -216,12 +216,6 @@ export const portfolioItems: PortfolioItem[] = [
     image: bonkImage,
   },
   {
-    title: "CTF-Writeups",
-    description: "A collection of my CTF challenge writeups",
-    url: "https://github.com/M-Davies/CTF-Writeups",
-    image: ctfImage,
-  },
-  {
     title: "jump4joy",
     description: "A simple AWS jumpbox for personal and business use",
     url: "https://github.com/M-Davies/jump4joy",
@@ -328,5 +322,6 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
   {label: "Github", Icon: GithubIcon, href: "https://github.com/M-Davies"},
   {label: "LinkedIn", Icon: LinkedInIcon, href: "https://www.linkedin.com/in/mdavies12/"},
-  {label: "TryHackMe", Icon: TryHackMeIcon, href: "https://tryhackme.com/p/MDavies"}
+  {label: "TryHackMe", Icon: TryHackMeIcon, href: "https://tryhackme.com/p/MDavies"},
+  {label: "HackTheBox", Icon: HackTheBoxIcon, href: "https://app.hackthebox.com/users/943137"}
 ];
